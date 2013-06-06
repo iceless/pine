@@ -125,6 +125,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="MHw-7h-yVh"/>
                                 </constraints>
+                                <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="poweredByFoursquare_gray.png" id="8eW-X1-rnJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
                                 <connections>
                                     <outlet property="dataSource" destination="H8p-OY-hI1" id="d7h-m7-ZWo"/>
                                     <outlet property="delegate" destination="H8p-OY-hI1" id="7oZ-lZ-JbT"/>
@@ -143,6 +147,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="L5h-ea-aSf"/>
                     <connections>
+                        <outlet property="footer" destination="8eW-X1-rnJ" id="kcD-IV-J6Y"/>
                         <outlet property="mapView" destination="eGL-71-Nnb" id="lAt-ca-JUz"/>
                         <outlet property="tableView" destination="KzG-QG-f10" id="d4K-Vg-QnN"/>
                     </connections>
@@ -213,6 +218,7 @@
     </scenes>
     <resources>
         <image name="first" width="16" height="16"/>
+        <image name="poweredByFoursquare_gray.png" width="236" height="60"/>
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>
@@ -225,6 +231,7 @@
         <class className="PineNearbyVenuesViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PineNearbyVenuesViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="footer" candidateClass="UIView"/>
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>

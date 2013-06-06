@@ -53,6 +53,7 @@
 		56EEEB5B1760AB6200A6CFFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB5A1760AB6200A6CFFC /* MapKit.framework */; };
 		56EEEB641760B15F00A6CFFC /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB541760937A00A6CFFC /* FSConverter.m */; };
 		56EEEB651760B15F00A6CFFC /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB561760937A00A6CFFC /* FSVenue.m */; };
+		56EEEB691760D13B00A6CFFC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB681760D13B00A6CFFC /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		56EEEB551760937A00A6CFFC /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
 		56EEEB561760937A00A6CFFC /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
 		56EEEB5A1760AB6200A6CFFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		56EEEB681760D13B00A6CFFC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				56EEEAD617604F0600A6CFFC /* UIKit.framework in Frameworks */,
 				56EEEAD817604F0600A6CFFC /* Foundation.framework in Frameworks */,
 				56EEEB1C1760517000A6CFFC /* Parse.framework in Frameworks */,
+				56EEEB691760D13B00A6CFFC /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +186,7 @@
 		56EEEAD417604F0600A6CFFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56EEEB681760D13B00A6CFFC /* Parse.framework */,
 				56EEEB5A1760AB6200A6CFFC /* MapKit.framework */,
 				56EEEB371760532C00A6CFFC /* SystemConfiguration.framework */,
 				56EEEB351760532600A6CFFC /* StoreKit.framework */,
@@ -610,6 +614,7 @@
 				56EEEB1717604F0600A6CFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56EEEB1817604F0600A6CFFC /* Build configuration list for PBXNativeTarget "PineTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +623,7 @@
 				56EEEB1A17604F0600A6CFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

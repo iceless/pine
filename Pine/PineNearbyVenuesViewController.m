@@ -32,6 +32,7 @@
 	// Do any additional setup after loading the view.
  
     self.title = @"Nearby";
+    self.tableView.tableFooterView = self.footer;
     
     _locationManager = [[CLLocationManager alloc]init];
     _locationManager.desiredAccuracy = kCLLocationAccuracyBest;

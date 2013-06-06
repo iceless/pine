@@ -18,6 +18,7 @@
 
 @property (strong,nonatomic)IBOutlet MKMapView* mapView;
 @property (strong,nonatomic)IBOutlet UITableView* tableView;
+@property (strong, nonatomic) IBOutlet UIView *footer;
 
 @property (strong,nonatomic)FSVenue* selected;
 @property (strong,nonatomic)NSArray* nearbyVenues;
