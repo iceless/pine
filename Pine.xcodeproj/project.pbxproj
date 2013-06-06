@@ -50,6 +50,7 @@
 		56EEEB521760934900A6CFFC /* poweredByFoursquare_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB491760934900A6CFFC /* poweredByFoursquare_gray@2x.png */; };
 		56EEEB571760937B00A6CFFC /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB541760937A00A6CFFC /* FSConverter.m */; };
 		56EEEB581760937B00A6CFFC /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB561760937A00A6CFFC /* FSVenue.m */; };
+		56EEEB5B1760AB6200A6CFFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB5A1760AB6200A6CFFC /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		56EEEB541760937A00A6CFFC /* FSConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConverter.m; sourceTree = "<group>"; };
 		56EEEB551760937A00A6CFFC /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
 		56EEEB561760937A00A6CFFC /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
+		56EEEB5A1760AB6200A6CFFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EEEB5B1760AB6200A6CFFC /* MapKit.framework in Frameworks */,
 				56EEEB381760532C00A6CFFC /* SystemConfiguration.framework in Frameworks */,
 				56EEEB361760532600A6CFFC /* StoreKit.framework in Frameworks */,
 				56EEEB341760531E00A6CFFC /* Security.framework in Frameworks */,
@@ -178,6 +181,7 @@
 		56EEEAD417604F0600A6CFFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56EEEB5A1760AB6200A6CFFC /* MapKit.framework */,
 				56EEEB371760532C00A6CFFC /* SystemConfiguration.framework */,
 				56EEEB351760532600A6CFFC /* StoreKit.framework */,
 				56EEEB331760531E00A6CFFC /* Security.framework */,
