@@ -7,11 +7,22 @@
 //
 
 #import "PineAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation PineAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [Parse setApplicationId:@"hlK4qeE2bEQvc6pMdxfkO7kaF5EUHkd9l7fJOkJv"
+                  clientKey:@"Tm4A3DrKr5YnPajJiGpUq0dpuXSj29L9dK7UtA0j"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+//    PFObject *testObject = [PFObject objectWithClassName:@"TestObjectForPine"];
+//    [testObject setObject:@"bing w" forKey:@"name"];
+//    [testObject save];
+    
     // Override point for customization after application launch.
     return YES;
 }
