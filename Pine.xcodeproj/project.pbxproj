@@ -51,6 +51,8 @@
 		56EEEB571760937B00A6CFFC /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB541760937A00A6CFFC /* FSConverter.m */; };
 		56EEEB581760937B00A6CFFC /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB561760937A00A6CFFC /* FSVenue.m */; };
 		56EEEB5B1760AB6200A6CFFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB5A1760AB6200A6CFFC /* MapKit.framework */; };
+		56EEEB641760B15F00A6CFFC /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB541760937A00A6CFFC /* FSConverter.m */; };
+		56EEEB651760B15F00A6CFFC /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB561760937A00A6CFFC /* FSVenue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -407,6 +409,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EEEB641760B15F00A6CFFC /* FSConverter.m in Sources */,
+				56EEEB651760B15F00A6CFFC /* FSVenue.m in Sources */,
 				56EEEAE217604F0600A6CFFC /* main.m in Sources */,
 				56EEEAE617604F0600A6CFFC /* PineAppDelegate.m in Sources */,
 				56EEEAF217604F0600A6CFFC /* PineFirstViewController.m in Sources */,
