@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56EEEAD617604F0600A6CFFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEAD517604F0600A6CFFC /* UIKit.framework */; };
+		56EEEAD817604F0600A6CFFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEAD717604F0600A6CFFC /* Foundation.framework */; };
+		56EEEADA17604F0600A6CFFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEAD917604F0600A6CFFC /* CoreGraphics.framework */; };
+		56EEEAE017604F0600A6CFFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEADE17604F0600A6CFFC /* InfoPlist.strings */; };
+		56EEEAE217604F0600A6CFFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEAE117604F0600A6CFFC /* main.m */; };
+		56EEEAE617604F0600A6CFFC /* PineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEAE517604F0600A6CFFC /* PineAppDelegate.m */; };
+		56EEEAE817604F0600A6CFFC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAE717604F0600A6CFFC /* Default.png */; };
+		56EEEAEA17604F0600A6CFFC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAE917604F0600A6CFFC /* Default@2x.png */; };
+		56EEEAEC17604F0600A6CFFC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAEB17604F0600A6CFFC /* Default-568h@2x.png */; };
+		56EEEAEF17604F0600A6CFFC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAED17604F0600A6CFFC /* MainStoryboard.storyboard */; };
+		56EEEAF217604F0600A6CFFC /* PineFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEAF117604F0600A6CFFC /* PineFirstViewController.m */; };
+		56EEEAF417604F0600A6CFFC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAF317604F0600A6CFFC /* first.png */; };
+		56EEEAF617604F0600A6CFFC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAF517604F0600A6CFFC /* first@2x.png */; };
+		56EEEAF917604F0600A6CFFC /* PineSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEAF817604F0600A6CFFC /* PineSecondViewController.m */; };
+		56EEEAFB17604F0600A6CFFC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAFA17604F0600A6CFFC /* second.png */; };
+		56EEEAFD17604F0600A6CFFC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEAFC17604F0600A6CFFC /* second@2x.png */; };
+		56EEEB0517604F0600A6CFFC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB0417604F0600A6CFFC /* SenTestingKit.framework */; };
+		56EEEB0617604F0600A6CFFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEAD517604F0600A6CFFC /* UIKit.framework */; };
+		56EEEB0717604F0600A6CFFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEAD717604F0600A6CFFC /* Foundation.framework */; };
+		56EEEB0F17604F0600A6CFFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB0D17604F0600A6CFFC /* InfoPlist.strings */; };
+		56EEEB1217604F0600A6CFFC /* PineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB1117604F0600A6CFFC /* PineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56EEEB0817604F0600A6CFFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EEEACA17604F0600A6CFFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EEEAD117604F0600A6CFFC;
+			remoteInfo = Pine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56EEEAD217604F0600A6CFFC /* Pine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EEEAD517604F0600A6CFFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56EEEAD717604F0600A6CFFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56EEEAD917604F0600A6CFFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56EEEADD17604F0600A6CFFC /* Pine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pine-Info.plist"; sourceTree = "<group>"; };
+		56EEEADF17604F0600A6CFFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56EEEAE117604F0600A6CFFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56EEEAE317604F0600A6CFFC /* Pine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pine-Prefix.pch"; sourceTree = "<group>"; };
+		56EEEAE417604F0600A6CFFC /* PineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineAppDelegate.h; sourceTree = "<group>"; };
+		56EEEAE517604F0600A6CFFC /* PineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineAppDelegate.m; sourceTree = "<group>"; };
+		56EEEAE717604F0600A6CFFC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		56EEEAE917604F0600A6CFFC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		56EEEAEB17604F0600A6CFFC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		56EEEAEE17604F0600A6CFFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		56EEEAF017604F0600A6CFFC /* PineFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineFirstViewController.h; sourceTree = "<group>"; };
+		56EEEAF117604F0600A6CFFC /* PineFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineFirstViewController.m; sourceTree = "<group>"; };
+		56EEEAF317604F0600A6CFFC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		56EEEAF517604F0600A6CFFC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		56EEEAF717604F0600A6CFFC /* PineSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineSecondViewController.h; sourceTree = "<group>"; };
+		56EEEAF817604F0600A6CFFC /* PineSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineSecondViewController.m; sourceTree = "<group>"; };
+		56EEEAFA17604F0600A6CFFC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		56EEEAFC17604F0600A6CFFC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		56EEEB0317604F0600A6CFFC /* PineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PineTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EEEB0417604F0600A6CFFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		56EEEB0C17604F0600A6CFFC /* PineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PineTests-Info.plist"; sourceTree = "<group>"; };
+		56EEEB0E17604F0600A6CFFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56EEEB1017604F0600A6CFFC /* PineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineTests.h; sourceTree = "<group>"; };
+		56EEEB1117604F0600A6CFFC /* PineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56EEEACF17604F0600A6CFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EEEAD617604F0600A6CFFC /* UIKit.framework in Frameworks */,
+				56EEEAD817604F0600A6CFFC /* Foundation.framework in Frameworks */,
+				56EEEADA17604F0600A6CFFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EEEAFF17604F0600A6CFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EEEB0517604F0600A6CFFC /* SenTestingKit.framework in Frameworks */,
+				56EEEB0617604F0600A6CFFC /* UIKit.framework in Frameworks */,
+				56EEEB0717604F0600A6CFFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56EEEAC917604F0600A6CFFC = {
+			isa = PBXGroup;
+			children = (
+				56EEEADB17604F0600A6CFFC /* Pine */,
+				56EEEB0A17604F0600A6CFFC /* PineTests */,
+				56EEEAD417604F0600A6CFFC /* Frameworks */,
+				56EEEAD317604F0600A6CFFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56EEEAD317604F0600A6CFFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEAD217604F0600A6CFFC /* Pine.app */,
+				56EEEB0317604F0600A6CFFC /* PineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56EEEAD417604F0600A6CFFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEAD517604F0600A6CFFC /* UIKit.framework */,
+				56EEEAD717604F0600A6CFFC /* Foundation.framework */,
+				56EEEAD917604F0600A6CFFC /* CoreGraphics.framework */,
+				56EEEB0417604F0600A6CFFC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56EEEADB17604F0600A6CFFC /* Pine */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEAE417604F0600A6CFFC /* PineAppDelegate.h */,
+				56EEEAE517604F0600A6CFFC /* PineAppDelegate.m */,
+				56EEEAED17604F0600A6CFFC /* MainStoryboard.storyboard */,
+				56EEEAF017604F0600A6CFFC /* PineFirstViewController.h */,
+				56EEEAF117604F0600A6CFFC /* PineFirstViewController.m */,
+				56EEEAF317604F0600A6CFFC /* first.png */,
+				56EEEAF517604F0600A6CFFC /* first@2x.png */,
+				56EEEAF717604F0600A6CFFC /* PineSecondViewController.h */,
+				56EEEAF817604F0600A6CFFC /* PineSecondViewController.m */,
+				56EEEAFA17604F0600A6CFFC /* second.png */,
+				56EEEAFC17604F0600A6CFFC /* second@2x.png */,
+				56EEEADC17604F0600A6CFFC /* Supporting Files */,
+			);
+			path = Pine;
+			sourceTree = "<group>";
+		};
+		56EEEADC17604F0600A6CFFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEADD17604F0600A6CFFC /* Pine-Info.plist */,
+				56EEEADE17604F0600A6CFFC /* InfoPlist.strings */,
+				56EEEAE117604F0600A6CFFC /* main.m */,
+				56EEEAE317604F0600A6CFFC /* Pine-Prefix.pch */,
+				56EEEAE717604F0600A6CFFC /* Default.png */,
+				56EEEAE917604F0600A6CFFC /* Default@2x.png */,
+				56EEEAEB17604F0600A6CFFC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56EEEB0A17604F0600A6CFFC /* PineTests */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEB1017604F0600A6CFFC /* PineTests.h */,
+				56EEEB1117604F0600A6CFFC /* PineTests.m */,
+				56EEEB0B17604F0600A6CFFC /* Supporting Files */,
+			);
+			path = PineTests;
+			sourceTree = "<group>";
+		};
+		56EEEB0B17604F0600A6CFFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEB0C17604F0600A6CFFC /* PineTests-Info.plist */,
+				56EEEB0D17604F0600A6CFFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56EEEAD117604F0600A6CFFC /* Pine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EEEB1517604F0600A6CFFC /* Build configuration list for PBXNativeTarget "Pine" */;
+			buildPhases = (
+				56EEEACE17604F0600A6CFFC /* Sources */,
+				56EEEACF17604F0600A6CFFC /* Frameworks */,
+				56EEEAD017604F0600A6CFFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pine;
+			productName = Pine;
+			productReference = 56EEEAD217604F0600A6CFFC /* Pine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56EEEB0217604F0600A6CFFC /* PineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EEEB1817604F0600A6CFFC /* Build configuration list for PBXNativeTarget "PineTests" */;
+			buildPhases = (
+				56EEEAFE17604F0600A6CFFC /* Sources */,
+				56EEEAFF17604F0600A6CFFC /* Frameworks */,
+				56EEEB0017604F0600A6CFFC /* Resources */,
+				56EEEB0117604F0600A6CFFC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EEEB0917604F0600A6CFFC /* PBXTargetDependency */,
+			);
+			name = PineTests;
+			productName = PineTests;
+			productReference = 56EEEB0317604F0600A6CFFC /* PineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56EEEACA17604F0600A6CFFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Pine;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bing W";
+			};
+			buildConfigurationList = 56EEEACD17604F0600A6CFFC /* Build configuration list for PBXProject "Pine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56EEEAC917604F0600A6CFFC;
+			productRefGroup = 56EEEAD317604F0600A6CFFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56EEEAD117604F0600A6CFFC /* Pine */,
+				56EEEB0217604F0600A6CFFC /* PineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56EEEAD017604F0600A6CFFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EEEAE017604F0600A6CFFC /* InfoPlist.strings in Resources */,
+				56EEEAE817604F0600A6CFFC /* Default.png in Resources */,
+				56EEEAEA17604F0600A6CFFC /* Default@2x.png in Resources */,
+				56EEEAEC17604F0600A6CFFC /* Default-568h@2x.png in Resources */,
+				56EEEAEF17604F0600A6CFFC /* MainStoryboard.storyboard in Resources */,
+				56EEEAF417604F0600A6CFFC /* first.png in Resources */,
+				56EEEAF617604F0600A6CFFC /* first@2x.png in Resources */,
+				56EEEAFB17604F0600A6CFFC /* second.png in Resources */,
+				56EEEAFD17604F0600A6CFFC /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EEEB0017604F0600A6CFFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EEEB0F17604F0600A6CFFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56EEEB0117604F0600A6CFFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56EEEACE17604F0600A6CFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EEEAE217604F0600A6CFFC /* main.m in Sources */,
+				56EEEAE617604F0600A6CFFC /* PineAppDelegate.m in Sources */,
+				56EEEAF217604F0600A6CFFC /* PineFirstViewController.m in Sources */,
+				56EEEAF917604F0600A6CFFC /* PineSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EEEAFE17604F0600A6CFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EEEB1217604F0600A6CFFC /* PineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56EEEB0917604F0600A6CFFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EEEAD117604F0600A6CFFC /* Pine */;
+			targetProxy = 56EEEB0817604F0600A6CFFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56EEEADE17604F0600A6CFFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EEEADF17604F0600A6CFFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56EEEAED17604F0600A6CFFC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EEEAEE17604F0600A6CFFC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		56EEEB0D17604F0600A6CFFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EEEB0E17604F0600A6CFFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56EEEB1317604F0600A6CFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56EEEB1417604F0600A6CFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56EEEB1617604F0600A6CFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pine/Pine-Prefix.pch";
+				INFOPLIST_FILE = "Pine/Pine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56EEEB1717604F0600A6CFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pine/Pine-Prefix.pch";
+				INFOPLIST_FILE = "Pine/Pine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56EEEB1917604F0600A6CFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pine.app/Pine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pine/Pine-Prefix.pch";
+				INFOPLIST_FILE = "PineTests/PineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		56EEEB1A17604F0600A6CFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pine.app/Pine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pine/Pine-Prefix.pch";
+				INFOPLIST_FILE = "PineTests/PineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56EEEACD17604F0600A6CFFC /* Build configuration list for PBXProject "Pine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EEEB1317604F0600A6CFFC /* Debug */,
+				56EEEB1417604F0600A6CFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EEEB1517604F0600A6CFFC /* Build configuration list for PBXNativeTarget "Pine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EEEB1617604F0600A6CFFC /* Debug */,
+				56EEEB1717604F0600A6CFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56EEEB1817604F0600A6CFFC /* Build configuration list for PBXNativeTarget "PineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EEEB1917604F0600A6CFFC /* Debug */,
+				56EEEB1A17604F0600A6CFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56EEEACA17604F0600A6CFFC /* Project object */;
+}
