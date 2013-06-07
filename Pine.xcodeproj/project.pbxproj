@@ -28,6 +28,33 @@
 		56EEEB0717604F0600A6CFFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEAD717604F0600A6CFFC /* Foundation.framework */; };
 		56EEEB0F17604F0600A6CFFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB0D17604F0600A6CFFC /* InfoPlist.strings */; };
 		56EEEB1217604F0600A6CFFC /* PineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB1117604F0600A6CFFC /* PineTests.m */; };
+		56EEEB1C1760517000A6CFFC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB1B1760517000A6CFFC /* Parse.framework */; };
+		56EEEB27176052B600A6CFFC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB251760527000A6CFFC /* AudioToolbox.framework */; };
+		56EEEB2A176052E600A6CFFC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB28176052CF00A6CFFC /* CFNetwork.framework */; };
+		56EEEB2C176052FE00A6CFFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB2B176052FE00A6CFFC /* CoreLocation.framework */; };
+		56EEEB2E1760530600A6CFFC /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB2D1760530600A6CFFC /* libz.1.1.3.dylib */; };
+		56EEEB301760531000A6CFFC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB2F1760531000A6CFFC /* MobileCoreServices.framework */; };
+		56EEEB321760531700A6CFFC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB311760531700A6CFFC /* QuartzCore.framework */; };
+		56EEEB341760531E00A6CFFC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB331760531E00A6CFFC /* Security.framework */; };
+		56EEEB361760532600A6CFFC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB351760532600A6CFFC /* StoreKit.framework */; };
+		56EEEB381760532C00A6CFFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB371760532C00A6CFFC /* SystemConfiguration.framework */; };
+		56EEEB3B1760918100A6CFFC /* NearbyVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB3A1760918100A6CFFC /* NearbyVenuesViewController.m */; };
+		56EEEB4A1760934900A6CFFC /* Foursquare2.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB3E1760934900A6CFFC /* Foursquare2.m */; };
+		56EEEB4B1760934900A6CFFC /* FSRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB401760934900A6CFFC /* FSRequester.m */; };
+		56EEEB4C1760934900A6CFFC /* FSTargetCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB421760934900A6CFFC /* FSTargetCallback.m */; };
+		56EEEB4D1760934900A6CFFC /* FSWebLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB441760934900A6CFFC /* FSWebLogin.m */; };
+		56EEEB4E1760934900A6CFFC /* FSWebLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB451760934900A6CFFC /* FSWebLogin.xib */; };
+		56EEEB4F1760934900A6CFFC /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB461760934900A6CFFC /* pin.png */; };
+		56EEEB501760934900A6CFFC /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB471760934900A6CFFC /* pin@2x.png */; };
+		56EEEB511760934900A6CFFC /* poweredByFoursquare_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB481760934900A6CFFC /* poweredByFoursquare_gray.png */; };
+		56EEEB521760934900A6CFFC /* poweredByFoursquare_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EEEB491760934900A6CFFC /* poweredByFoursquare_gray@2x.png */; };
+		56EEEB571760937B00A6CFFC /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB541760937A00A6CFFC /* FSConverter.m */; };
+		56EEEB581760937B00A6CFFC /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB561760937A00A6CFFC /* FSVenue.m */; };
+		56EEEB5B1760AB6200A6CFFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB5A1760AB6200A6CFFC /* MapKit.framework */; };
+		56EEEB641760B15F00A6CFFC /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB541760937A00A6CFFC /* FSConverter.m */; };
+		56EEEB651760B15F00A6CFFC /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB561760937A00A6CFFC /* FSVenue.m */; };
+		56EEEB691760D13B00A6CFFC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB681760D13B00A6CFFC /* Parse.framework */; };
+		56EEEB701761A12700A6CFFC /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB6F1761A12700A6CFFC /* CheckInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +96,39 @@
 		56EEEB0E17604F0600A6CFFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56EEEB1017604F0600A6CFFC /* PineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineTests.h; sourceTree = "<group>"; };
 		56EEEB1117604F0600A6CFFC /* PineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineTests.m; sourceTree = "<group>"; };
+		56EEEB1B1760517000A6CFFC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		56EEEB251760527000A6CFFC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		56EEEB28176052CF00A6CFFC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		56EEEB2B176052FE00A6CFFC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		56EEEB2D1760530600A6CFFC /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		56EEEB2F1760531000A6CFFC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		56EEEB311760531700A6CFFC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56EEEB331760531E00A6CFFC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		56EEEB351760532600A6CFFC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		56EEEB371760532C00A6CFFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		56EEEB391760918100A6CFFC /* NearbyVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyVenuesViewController.h; sourceTree = "<group>"; };
+		56EEEB3A1760918100A6CFFC /* NearbyVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyVenuesViewController.m; sourceTree = "<group>"; };
+		56EEEB3D1760934900A6CFFC /* Foursquare2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foursquare2.h; sourceTree = "<group>"; };
+		56EEEB3E1760934900A6CFFC /* Foursquare2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foursquare2.m; sourceTree = "<group>"; };
+		56EEEB3F1760934900A6CFFC /* FSRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRequester.h; sourceTree = "<group>"; };
+		56EEEB401760934900A6CFFC /* FSRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRequester.m; sourceTree = "<group>"; };
+		56EEEB411760934900A6CFFC /* FSTargetCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTargetCallback.h; sourceTree = "<group>"; };
+		56EEEB421760934900A6CFFC /* FSTargetCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTargetCallback.m; sourceTree = "<group>"; };
+		56EEEB431760934900A6CFFC /* FSWebLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebLogin.h; sourceTree = "<group>"; };
+		56EEEB441760934900A6CFFC /* FSWebLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebLogin.m; sourceTree = "<group>"; };
+		56EEEB451760934900A6CFFC /* FSWebLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSWebLogin.xib; sourceTree = "<group>"; };
+		56EEEB461760934900A6CFFC /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		56EEEB471760934900A6CFFC /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		56EEEB481760934900A6CFFC /* poweredByFoursquare_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweredByFoursquare_gray.png; sourceTree = "<group>"; };
+		56EEEB491760934900A6CFFC /* poweredByFoursquare_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poweredByFoursquare_gray@2x.png"; sourceTree = "<group>"; };
+		56EEEB531760937A00A6CFFC /* FSConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConverter.h; sourceTree = "<group>"; };
+		56EEEB541760937A00A6CFFC /* FSConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConverter.m; sourceTree = "<group>"; };
+		56EEEB551760937A00A6CFFC /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
+		56EEEB561760937A00A6CFFC /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
+		56EEEB5A1760AB6200A6CFFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		56EEEB681760D13B00A6CFFC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		56EEEB6E1761A12700A6CFFC /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInViewController.h; sourceTree = "<group>"; };
+		56EEEB6F1761A12700A6CFFC /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +136,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EEEB5B1760AB6200A6CFFC /* MapKit.framework in Frameworks */,
+				56EEEB381760532C00A6CFFC /* SystemConfiguration.framework in Frameworks */,
+				56EEEB361760532600A6CFFC /* StoreKit.framework in Frameworks */,
+				56EEEB341760531E00A6CFFC /* Security.framework in Frameworks */,
+				56EEEB321760531700A6CFFC /* QuartzCore.framework in Frameworks */,
+				56EEEB301760531000A6CFFC /* MobileCoreServices.framework in Frameworks */,
+				56EEEB2E1760530600A6CFFC /* libz.1.1.3.dylib in Frameworks */,
+				56EEEB2C176052FE00A6CFFC /* CoreLocation.framework in Frameworks */,
+				56EEEADA17604F0600A6CFFC /* CoreGraphics.framework in Frameworks */,
+				56EEEB2A176052E600A6CFFC /* CFNetwork.framework in Frameworks */,
+				56EEEB27176052B600A6CFFC /* AudioToolbox.framework in Frameworks */,
 				56EEEAD617604F0600A6CFFC /* UIKit.framework in Frameworks */,
 				56EEEAD817604F0600A6CFFC /* Foundation.framework in Frameworks */,
-				56EEEADA17604F0600A6CFFC /* CoreGraphics.framework in Frameworks */,
+				56EEEB1C1760517000A6CFFC /* Parse.framework in Frameworks */,
+				56EEEB691760D13B00A6CFFC /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +189,18 @@
 		56EEEAD417604F0600A6CFFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56EEEB681760D13B00A6CFFC /* Parse.framework */,
+				56EEEB5A1760AB6200A6CFFC /* MapKit.framework */,
+				56EEEB371760532C00A6CFFC /* SystemConfiguration.framework */,
+				56EEEB351760532600A6CFFC /* StoreKit.framework */,
+				56EEEB331760531E00A6CFFC /* Security.framework */,
+				56EEEB311760531700A6CFFC /* QuartzCore.framework */,
+				56EEEB2F1760531000A6CFFC /* MobileCoreServices.framework */,
+				56EEEB2D1760530600A6CFFC /* libz.1.1.3.dylib */,
+				56EEEB2B176052FE00A6CFFC /* CoreLocation.framework */,
+				56EEEB28176052CF00A6CFFC /* CFNetwork.framework */,
+				56EEEB251760527000A6CFFC /* AudioToolbox.framework */,
+				56EEEB1B1760517000A6CFFC /* Parse.framework */,
 				56EEEAD517604F0600A6CFFC /* UIKit.framework */,
 				56EEEAD717604F0600A6CFFC /* Foundation.framework */,
 				56EEEAD917604F0600A6CFFC /* CoreGraphics.framework */,
@@ -128,6 +212,8 @@
 		56EEEADB17604F0600A6CFFC /* Pine */ = {
 			isa = PBXGroup;
 			children = (
+				56EEEB591760938A00A6CFFC /* Objects */,
+				56EEEB3C1760934900A6CFFC /* Foursquare2 */,
 				56EEEAE417604F0600A6CFFC /* PineAppDelegate.h */,
 				56EEEAE517604F0600A6CFFC /* PineAppDelegate.m */,
 				56EEEAED17604F0600A6CFFC /* MainStoryboard.storyboard */,
@@ -139,6 +225,10 @@
 				56EEEAF817604F0600A6CFFC /* PineSecondViewController.m */,
 				56EEEAFA17604F0600A6CFFC /* second.png */,
 				56EEEAFC17604F0600A6CFFC /* second@2x.png */,
+				56EEEB391760918100A6CFFC /* NearbyVenuesViewController.h */,
+				56EEEB3A1760918100A6CFFC /* NearbyVenuesViewController.m */,
+				56EEEB6E1761A12700A6CFFC /* CheckInViewController.h */,
+				56EEEB6F1761A12700A6CFFC /* CheckInViewController.m */,
 				56EEEADC17604F0600A6CFFC /* Supporting Files */,
 			);
 			path = Pine;
@@ -175,6 +265,37 @@
 				56EEEB0D17604F0600A6CFFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56EEEB3C1760934900A6CFFC /* Foursquare2 */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEB3D1760934900A6CFFC /* Foursquare2.h */,
+				56EEEB3E1760934900A6CFFC /* Foursquare2.m */,
+				56EEEB3F1760934900A6CFFC /* FSRequester.h */,
+				56EEEB401760934900A6CFFC /* FSRequester.m */,
+				56EEEB411760934900A6CFFC /* FSTargetCallback.h */,
+				56EEEB421760934900A6CFFC /* FSTargetCallback.m */,
+				56EEEB431760934900A6CFFC /* FSWebLogin.h */,
+				56EEEB441760934900A6CFFC /* FSWebLogin.m */,
+				56EEEB451760934900A6CFFC /* FSWebLogin.xib */,
+				56EEEB461760934900A6CFFC /* pin.png */,
+				56EEEB471760934900A6CFFC /* pin@2x.png */,
+				56EEEB481760934900A6CFFC /* poweredByFoursquare_gray.png */,
+				56EEEB491760934900A6CFFC /* poweredByFoursquare_gray@2x.png */,
+			);
+			path = Foursquare2;
+			sourceTree = "<group>";
+		};
+		56EEEB591760938A00A6CFFC /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				56EEEB531760937A00A6CFFC /* FSConverter.h */,
+				56EEEB541760937A00A6CFFC /* FSConverter.m */,
+				56EEEB551760937A00A6CFFC /* FSVenue.h */,
+				56EEEB561760937A00A6CFFC /* FSVenue.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +379,11 @@
 				56EEEAF617604F0600A6CFFC /* first@2x.png in Resources */,
 				56EEEAFB17604F0600A6CFFC /* second.png in Resources */,
 				56EEEAFD17604F0600A6CFFC /* second@2x.png in Resources */,
+				56EEEB4E1760934900A6CFFC /* FSWebLogin.xib in Resources */,
+				56EEEB4F1760934900A6CFFC /* pin.png in Resources */,
+				56EEEB501760934900A6CFFC /* pin@2x.png in Resources */,
+				56EEEB511760934900A6CFFC /* poweredByFoursquare_gray.png in Resources */,
+				56EEEB521760934900A6CFFC /* poweredByFoursquare_gray@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +418,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EEEB641760B15F00A6CFFC /* FSConverter.m in Sources */,
+				56EEEB651760B15F00A6CFFC /* FSVenue.m in Sources */,
 				56EEEAE217604F0600A6CFFC /* main.m in Sources */,
 				56EEEAE617604F0600A6CFFC /* PineAppDelegate.m in Sources */,
 				56EEEAF217604F0600A6CFFC /* PineFirstViewController.m in Sources */,
 				56EEEAF917604F0600A6CFFC /* PineSecondViewController.m in Sources */,
+				56EEEB3B1760918100A6CFFC /* NearbyVenuesViewController.m in Sources */,
+				56EEEB4A1760934900A6CFFC /* Foursquare2.m in Sources */,
+				56EEEB4B1760934900A6CFFC /* FSRequester.m in Sources */,
+				56EEEB4C1760934900A6CFFC /* FSTargetCallback.m in Sources */,
+				56EEEB4D1760934900A6CFFC /* FSWebLogin.m in Sources */,
+				56EEEB701761A12700A6CFFC /* CheckInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +438,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56EEEB1217604F0600A6CFFC /* PineTests.m in Sources */,
+				56EEEB571760937B00A6CFFC /* FSConverter.m in Sources */,
+				56EEEB581760937B00A6CFFC /* FSVenue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +540,10 @@
 		56EEEB1617604F0600A6CFFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pine/Pine-Prefix.pch";
 				INFOPLIST_FILE = "Pine/Pine-Info.plist";
@@ -415,6 +555,10 @@
 		56EEEB1717604F0600A6CFFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pine/Pine-Prefix.pch";
 				INFOPLIST_FILE = "Pine/Pine-Info.plist";
@@ -476,6 +620,7 @@
 				56EEEB1717604F0600A6CFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56EEEB1817604F0600A6CFFC /* Build configuration list for PBXNativeTarget "PineTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +629,7 @@
 				56EEEB1A17604F0600A6CFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
