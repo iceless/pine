@@ -38,7 +38,7 @@
 		56EEEB341760531E00A6CFFC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB331760531E00A6CFFC /* Security.framework */; };
 		56EEEB361760532600A6CFFC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB351760532600A6CFFC /* StoreKit.framework */; };
 		56EEEB381760532C00A6CFFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB371760532C00A6CFFC /* SystemConfiguration.framework */; };
-		56EEEB3B1760918100A6CFFC /* PineNearbyVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB3A1760918100A6CFFC /* PineNearbyVenuesViewController.m */; };
+		56EEEB3B1760918100A6CFFC /* NearbyVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB3A1760918100A6CFFC /* NearbyVenuesViewController.m */; };
 		56EEEB4A1760934900A6CFFC /* Foursquare2.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB3E1760934900A6CFFC /* Foursquare2.m */; };
 		56EEEB4B1760934900A6CFFC /* FSRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB401760934900A6CFFC /* FSRequester.m */; };
 		56EEEB4C1760934900A6CFFC /* FSTargetCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB421760934900A6CFFC /* FSTargetCallback.m */; };
@@ -54,6 +54,7 @@
 		56EEEB641760B15F00A6CFFC /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB541760937A00A6CFFC /* FSConverter.m */; };
 		56EEEB651760B15F00A6CFFC /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB561760937A00A6CFFC /* FSVenue.m */; };
 		56EEEB691760D13B00A6CFFC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EEEB681760D13B00A6CFFC /* Parse.framework */; };
+		56EEEB701761A12700A6CFFC /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EEEB6F1761A12700A6CFFC /* CheckInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,8 +106,8 @@
 		56EEEB331760531E00A6CFFC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		56EEEB351760532600A6CFFC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		56EEEB371760532C00A6CFFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		56EEEB391760918100A6CFFC /* PineNearbyVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PineNearbyVenuesViewController.h; sourceTree = "<group>"; };
-		56EEEB3A1760918100A6CFFC /* PineNearbyVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PineNearbyVenuesViewController.m; sourceTree = "<group>"; };
+		56EEEB391760918100A6CFFC /* NearbyVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyVenuesViewController.h; sourceTree = "<group>"; };
+		56EEEB3A1760918100A6CFFC /* NearbyVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyVenuesViewController.m; sourceTree = "<group>"; };
 		56EEEB3D1760934900A6CFFC /* Foursquare2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foursquare2.h; sourceTree = "<group>"; };
 		56EEEB3E1760934900A6CFFC /* Foursquare2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foursquare2.m; sourceTree = "<group>"; };
 		56EEEB3F1760934900A6CFFC /* FSRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRequester.h; sourceTree = "<group>"; };
@@ -126,6 +127,8 @@
 		56EEEB561760937A00A6CFFC /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
 		56EEEB5A1760AB6200A6CFFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		56EEEB681760D13B00A6CFFC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		56EEEB6E1761A12700A6CFFC /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInViewController.h; sourceTree = "<group>"; };
+		56EEEB6F1761A12700A6CFFC /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,8 +225,10 @@
 				56EEEAF817604F0600A6CFFC /* PineSecondViewController.m */,
 				56EEEAFA17604F0600A6CFFC /* second.png */,
 				56EEEAFC17604F0600A6CFFC /* second@2x.png */,
-				56EEEB391760918100A6CFFC /* PineNearbyVenuesViewController.h */,
-				56EEEB3A1760918100A6CFFC /* PineNearbyVenuesViewController.m */,
+				56EEEB391760918100A6CFFC /* NearbyVenuesViewController.h */,
+				56EEEB3A1760918100A6CFFC /* NearbyVenuesViewController.m */,
+				56EEEB6E1761A12700A6CFFC /* CheckInViewController.h */,
+				56EEEB6F1761A12700A6CFFC /* CheckInViewController.m */,
 				56EEEADC17604F0600A6CFFC /* Supporting Files */,
 			);
 			path = Pine;
@@ -419,11 +424,12 @@
 				56EEEAE617604F0600A6CFFC /* PineAppDelegate.m in Sources */,
 				56EEEAF217604F0600A6CFFC /* PineFirstViewController.m in Sources */,
 				56EEEAF917604F0600A6CFFC /* PineSecondViewController.m in Sources */,
-				56EEEB3B1760918100A6CFFC /* PineNearbyVenuesViewController.m in Sources */,
+				56EEEB3B1760918100A6CFFC /* NearbyVenuesViewController.m in Sources */,
 				56EEEB4A1760934900A6CFFC /* Foursquare2.m in Sources */,
 				56EEEB4B1760934900A6CFFC /* FSRequester.m in Sources */,
 				56EEEB4C1760934900A6CFFC /* FSTargetCallback.m in Sources */,
 				56EEEB4D1760934900A6CFFC /* FSWebLogin.m in Sources */,
+				56EEEB701761A12700A6CFFC /* CheckInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

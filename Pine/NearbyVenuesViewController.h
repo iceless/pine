@@ -12,8 +12,9 @@
 
 @class FSVenue;
 
-@interface PineNearbyVenuesViewController : UIViewController<CLLocationManagerDelegate>{
+@interface NearbyVenuesViewController : UIViewController<CLLocationManagerDelegate>{
     CLLocationManager *_locationManager;
+    NSInteger numberOfSections;
 }
 
 @property (strong,nonatomic)IBOutlet MKMapView* mapView;

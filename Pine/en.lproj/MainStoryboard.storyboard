@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="653" y="499"/>
         </scene>
-        <!--View Controller-->
+        <!--Check In View Controller-->
         <scene sceneID="bVD-rX-Qvc">
             <objects>
-                <viewController id="XLE-Xe-h1I" sceneMemberID="viewController">
+                <viewController id="XLE-Xe-h1I" customClass="CheckInViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P0D-H9-qVC">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -107,10 +107,10 @@
             </objects>
             <point key="canvasLocation" x="1103" y="499"/>
         </scene>
-        <!--Pine Nearby Venues View Controller-->
+        <!--Nearby Venues View Controller-->
         <scene sceneID="WXy-3S-9Af">
             <objects>
-                <viewController id="H8p-OY-hI1" customClass="PineNearbyVenuesViewController" sceneMemberID="viewController">
+                <viewController id="H8p-OY-hI1" customClass="NearbyVenuesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="69h-h2-y7U">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -222,19 +222,22 @@
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>
+        <class className="CheckInViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CheckInViewController.h"/>
+        </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
-        <class className="PineFirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PineFirstViewController.h"/>
-        </class>
-        <class className="PineNearbyVenuesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PineNearbyVenuesViewController.h"/>
+        <class className="NearbyVenuesViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NearbyVenuesViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="footer" candidateClass="UIView"/>
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
+        </class>
+        <class className="PineFirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PineFirstViewController.h"/>
         </class>
         <class className="PineSecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PineSecondViewController.h"/>

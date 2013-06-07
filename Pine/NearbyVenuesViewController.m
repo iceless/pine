@@ -6,16 +6,16 @@
 //  Copyright (c) 2013 Bing W. All rights reserved.
 //
 
-#import "PineNearbyVenuesViewController.h"
+#import "NearbyVenuesViewController.h"
 #import "Foursquare2.h"
 #import "FSVenue.h"
 #import "FSConverter.h"
 
-@interface PineNearbyVenuesViewController ()
+@interface NearbyVenuesViewController ()
 
 @end
 
-@implementation PineNearbyVenuesViewController
+@implementation NearbyVenuesViewController
 
 //- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 //{
@@ -34,9 +34,14 @@
     self.title = @"Nearby";
     self.tableView.tableFooterView = self.footer;
     
+    numberOfSections = 0;
+    
+//    self.nearbyVenues 
+    
     _locationManager = [[CLLocationManager alloc]init];
     _locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     _locationManager.delegate = self;
+    NSLog(@"startUpdatingLocation.");
     [_locationManager startUpdatingLocation];
     
 }
@@ -74,6 +79,7 @@
 }
 
 -(void)getVenuesForLocation:(CLLocation*)location{
+//    NSLog(@"get venues");
     [Foursquare2 searchVenuesNearByLatitude:@(location.coordinate.latitude)
 								  longitude:@(location.coordinate.longitude)
 								 accuracyLL:nil
@@ -90,7 +96,12 @@
 										   NSArray* venues = [dic valueForKeyPath:@"response.venues"];
                                            FSConverter *converter = [[FSConverter alloc]init];
                                            self.nearbyVenues = [converter convertToObjects:venues];
-                                           [self.tableView insertSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationTop];
+//                                           NSLog(@"before, number of sections: %i",[self.tableView numberOfSections]);
+                                           [self.tableView reloadData];
+                                           //insertSection is not good, cuz the location updates usually come multiple times. and this block will be called multiple
+                                           // times, so with using insertSection, numberOfSectionsInTableView we set up always be 1, would be conflict here.
+//                                           [self.tableView insertSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationTop];
+//                                           NSLog(@"after, number of sections: %i",[self.tableView numberOfSections]);
                                            [self proccessAnnotations];
                                            
 									   }
@@ -113,6 +124,7 @@
 - (void)locationManager:(CLLocationManager *)manager
     didUpdateToLocation:(CLLocation *)newLocation
            fromLocation:(CLLocation *)oldLocation{
+//    NSLog(@"locdidupdate (%f, %f) -> (%f, %f)",oldLocation.coordinate.latitude,oldLocation.coordinate.longitude, newLocation.coordinate.latitude,newLocation.coordinate.longitude);
     [_locationManager stopUpdatingLocation];
     [self getVenuesForLocation:newLocation];
     [self setupMapForLocatoion:newLocation];
@@ -128,6 +140,8 @@
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+//    NSLog(@"number of section here!! %i",numberOfSections);
+//    NSLog(@" nearbyvenues count: %i", self.nearbyVenues.count);
     if (self.nearbyVenues.count) {
         return 1;
     }
